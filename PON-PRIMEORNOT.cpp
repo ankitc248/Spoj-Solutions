@@ -1,5 +1,5 @@
 /*
-PON-PRIME OR NOT-PON
+PON-PRIME OR NOT
 SOLUTION BY RAMAN SHARMA
 */
 #include<bits/stdc++.h>
