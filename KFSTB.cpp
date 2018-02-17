@@ -42,7 +42,7 @@ while(tt--){
     int y;
     for(i=n;i>0;i--){
         y=topsort[i];
-       // cout<<y<<" ";
+        //cout<<y<<" ";
         for(int j=0;j<graph[y].size();j++){
             int k=graph[y][j];
             if(y!=t){
@@ -50,10 +50,10 @@ while(tt--){
                    //cout<<y<<" "<<k<<" "<<endl;
             }
         }
-//cout<<y<<" "<<ways[y]<<endl;
     }
-      //for(int i=n; i>0; --i)
-       //cout<<i<<" "<<ways[i]<<endl;
+for(int i=n; i>0; --i)
+    cout<<topsort[i]<<" ";
+cout<<endl;
     printf("%d\n",ways[s]);
 }
 }
